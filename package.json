@@ -6,7 +6,6 @@
       "url": "git+https://github.com/roddyyaga/bs-ppx_ocoi.git"
    },
    "scripts": {
-      "prepare": "npm run clean",
       "test": "echo \"Error: no tests specified\" && exit 1"
    },
    "keywords": [
