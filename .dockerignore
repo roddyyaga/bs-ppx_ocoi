@@ -1,0 +1,6 @@
+_build
+_opam
+*Dockerfile*
+docker-compose.yml
+.gitignore
+.dockerignore
