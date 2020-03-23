@@ -1,0 +1,5 @@
+(library
+(name ppx_ocoi_for_bs)
+(kind ppx_rewriter)
+(libraries base ppxlib)
+(preprocess (pps ppxlib.metaquot)))

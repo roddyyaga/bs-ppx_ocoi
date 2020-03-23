@@ -1,0 +1,3 @@
+(executable
+(name test)
+(preprocess (pps ppx_ocoi_for_bs ppx_yojson_conv)))
