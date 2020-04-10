@@ -5,6 +5,7 @@ depends: [
   "dune"
   "base"
   "ppxlib"
+  "ppx_yojson_conv"
 ]
 build: [
   ["dune" "subst"] {pinned}
