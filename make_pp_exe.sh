@@ -4,5 +4,5 @@ eval $(opam env) &&
 opam pin add -yn exe . &&
 opam install --deps-only -y . &&
 rm pp_exe/pp.exe
-dune build @all &&
+dune build @all --root . &&
 mv _build/default/pp_exe/pp.exe pp_exe/pp.exe
